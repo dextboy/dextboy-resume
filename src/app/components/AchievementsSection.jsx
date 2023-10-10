@@ -6,7 +6,7 @@ const AnimatedNumbers = dynamic(
   () => {
     return import("react-animated-numbers");
   },
-  { ssr: false },
+  { ssr: false }
 );
 
 const achievementsList = [
@@ -43,7 +43,6 @@ const AchievementsSection = () => {
               <h2 className="text-white text-4xl font-bold flex flex-row">
                 {achievement.prefix}
                 <AnimatedNumbers
-                  includeComma
                   animateToNumber={parseInt(achievement.value)}
                   locale="en-US"
                   className="text-white text-4xl font-bold"
