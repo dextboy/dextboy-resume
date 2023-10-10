@@ -1,8 +1,4 @@
 {
   "extends": "next/core-web-vitals",
-<<<<<<< HEAD
-  "avoidEscape": true
-=======
   "rules": { "react/no-unescaped-entities": 0 }
->>>>>>> c23a701029c6e1e3b6e9b34b0336a2afd5752674
 }
