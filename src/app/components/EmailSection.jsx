@@ -111,6 +111,12 @@ const EmailSection = () => {
           >
             Send Message
           </button>
+          {emailSubmitted && (
+            <p className="text-green-500 text-sm mt-2">
+              Email sent successfully! I will get back to you as soon as
+              possible.
+            </p>
+          )}
         </form>
       </div>
     </section>
