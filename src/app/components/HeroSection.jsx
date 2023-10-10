@@ -17,7 +17,7 @@ const HeroSection = () => {
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-              Hello, I&apos;m{" "}
+              Hello, I'm{" "}
             </span>
             <br></br>
             <TypeAnimation
@@ -37,8 +37,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptatum.
+            UX Designer and Front-end Developer based in Singapore.
           </p>
           <div>
             <Link
@@ -48,7 +47,8 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <Link
-              href="/"
+              href="../../../public/dexter-cv.pdf"
+              download="dexter-cv.pdf"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
